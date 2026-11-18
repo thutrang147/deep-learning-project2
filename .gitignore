@@ -1,0 +1,17 @@
+# Raw datasets
+data/raw/**
+!data/raw/**/
+!data/raw/**/.gitkeep
+
+# Model checkpoints and weights
+**/checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.weights.h5
+
+# Python and notebook caches
+__pycache__/
+.ipynb_checkpoints/
+.cache/
+*.py[cod]
